@@ -1,2 +1,18 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */.calculator-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.calculator-buttons button {
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
