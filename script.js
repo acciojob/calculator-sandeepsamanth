@@ -25,7 +25,9 @@ buttons.forEach(button => {
       } else if (operator === 'multiply') {
         input.value = parseFloat(firstValue) * parseFloat(secondValue);
       } else if (operator === 'divide') {
-        if (secondValue == 0) {
+        if (secondValue == 0 && firstValue==0) {
+          input.value = 'NaN';
+        } else if (secondValue == 0 ) {
           input.value = 'Infinity';
         } else {
           input.value = parseFloat(firstValue) / parseFloat(secondValue);
