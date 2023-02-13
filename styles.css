@@ -1,5 +1,6 @@
 
 /* Your CSS Code here. */.calculator-container {
+  display:grid;
   width: 300px;
   margin: 50px auto;
   padding: 20px;
